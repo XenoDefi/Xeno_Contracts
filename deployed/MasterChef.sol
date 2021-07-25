@@ -1158,9 +1158,6 @@ contract XenoToken is ERC20, Ownable, ERC20Burnable {
     
     uint256 private _cap;
     
-    // Owner Wallet
-    address public constant BURN_ADDRESS = 0x000000000000000000000000000000000000dEaD;
-    
     constructor(uint256 nCap) ERC20("Xeno Token", "XENO") {
         require(nCap > 0, "XenoCapped: cap is 0");
         _cap = nCap;
@@ -1523,7 +1520,7 @@ contract MasterChef is Ownable, ReentrancyGuard {
 
     // Update the given pool's Xeno allocation point and deposit fee. Can only be called by the owner.
     function set(uint256 _pid, uint256 _allocPoint, uint16 _depositFeeBP, bool _withUpdate) public onlyOwner {
-        require(_depositFeeBP <= 10000, "set: invalid deposit fee basis points");
+        require(_depositFeeBP <= 600, "set: invalid deposit fee basis points");
         if (_withUpdate) {
             massUpdatePools();
         }
