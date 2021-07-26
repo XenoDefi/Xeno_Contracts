@@ -3,10 +3,11 @@ https://xenomorph.finance/
 
 ## Deployed Contracts
 MATIC Mainnet
-- Xeno Token:
-- MasterChef: 
-
-====
+- Xeno Token: 0x63bDB72ba6320A8cAc5e84734Db4F0DFb7b35FB0
+	https://polygonscan.com/address/0x63bDB72ba6320A8cAc5e84734Db4F0DFb7b35FB0
+- MasterChef: 0x74c50d283046404A87Eaa7705f7227f09e5a91Dc
+	https://polygonscan.com/address/0x74c50d283046404A87Eaa7705f7227f09e5a91Dc
+## ====
 Mumbai Testnet (Testing ONLY)
 - Xeno Token: 0x36c1cC3D6c3448d3D384852CB60e314444D670D3
 	https://mumbai.polygonscan.com/address/0x36c1cC3D6c3448d3D384852CB60e314444D670D3
